@@ -5,7 +5,8 @@ def pattern():
     center=(h+1)//2-1
     offset=(h-3)//2
     clset=3
-    for i in range(5):
+    print(Reset+'  '*(offset+1)+R+'  '*(clset-2)+Reset+'  '*5+R+'  '*(clset-2)+Reset+' '*(offset-1))
+    while True:
         for line in range(1,h):
             if offset!=0:
                 print(Reset+'  '*offset+R+'  '*clset+Reset+'  '*(offset*2-1)+R+'  '*clset+Reset+' '*offset)

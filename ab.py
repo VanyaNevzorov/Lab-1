@@ -80,7 +80,7 @@ def sequence():
 
 #flag()
 #loading()
-#m = int(sys.argv[1]) if len(sys.argv) > 1 else 3
-#multiple_progressbar(m)
-diamond()
+m = int(sys.argv[1]) if len(sys.argv) > 1 else 3
+multiple_progressbar(m)
+#diamond()
 #sequence()
